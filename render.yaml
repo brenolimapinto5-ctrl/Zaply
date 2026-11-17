@@ -8,6 +8,4 @@ services:
     healthCheckPath: /health
     envVars:
       - key: SUPABASE_URL
-        sync: false
-      - key: ALLOWED_ORIGINS
-        sync: false
+        value: https://giwokqrczjwdhztaoxua.supabase.co
